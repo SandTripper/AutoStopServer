@@ -1,0 +1,33 @@
+# 没有权限
+no-permission: "你没有执行此命令的权限"
+
+# 插件消息前缀
+plugin-prefix: "&b&lAutoStopServer&7>>>&r"
+
+# 关服消息前缀
+message-prefix: "&8&l[&b&l提示&8&l]"
+
+# 关服消息
+shutdown-message: "&e&l服务器将在 &e&l{TIME} &e&l后关闭"
+
+# 关服取消消息
+shutdown-cancelled-message: "&a&l关服操作已取消，您可以继续游戏！"
+
+# 没有任务被取消消息
+nothing-to-cancel: "&a&l没有需要取消的关机操作！"
+
+# 插件重载成功消息
+plugin-reloaded-message: "&a&l插件已成功重载，所有新设置都已生效"
+
+# 插件参数错误提示
+invalid-arguments-message: "&c&l参数错误：请检查您输入的命令并重试"
+
+# 当前正在关机倒计时
+stopping-message: "&c&l当前已经是关机阶段"
+
+# help参数显示的内容
+help-command-message:
+  - '&e&lAutoStopServer &a插件帮助'
+  - '&e&l/ass stop <second>(可选) &a进入关服倒计时'
+  - '&e&l/ass cancel &a取消关服倒计时'
+  - '&e&l/ass reload &a重载插件配置'

@@ -1,0 +1,14 @@
+countdown: 60
+
+remind-times:
+  - 60
+  - 30
+  - 10
+  - 5
+  - 4
+  - 3
+  - 2
+  - 1
+
+stop-times:
+  - '00:00'

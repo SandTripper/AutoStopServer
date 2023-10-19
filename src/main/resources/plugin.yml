@@ -1,0 +1,12 @@
+name: AutoStopServer
+version: '${project.version}'
+main: cn.sandtripper.minecraft.autostopserver.AutoStopServer
+author: 'SandTripper'
+description: '定时关服，关服提醒'
+commands:
+  AutoStopServer:
+    description: '使用/ass help查看插件帮助'
+    usage: /ass help
+    aliases: [ ass ]
+    permission: autostopserver.use
+    permission-message: You don't have permission to perform this command.
